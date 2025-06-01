@@ -77,6 +77,7 @@ while True:
         diff_x = coords[0] - frame_center[0]
         diff_y = coords[1] - frame_center[1]
         surface = (x + w) * (y + h)
+        widh = x + w  
         if surface > 20000:
             print("mrigell")
         else:
@@ -88,7 +89,7 @@ while True:
             print("right:")#, diff_x)
         difference_x = diff_x + 320
 
-        # data_to_send = f"{difference_x},{surface}\n"
+        # data_to_send = f"{surface},{widh}\n"
         # ser.write(data_to_send.encode())
         # print(f"Sent: {data_to_send.strip()}")
 
