@@ -40,6 +40,6 @@ python main.py
 ![alt text](575d10c7-1ca6-4fee-a05c-22af04f0a43c.png)
 
 ## Arduino.ino:
-
+![alt text](8f378a62-7725-4046-8297-028f31944a80-1.png)
 
 
